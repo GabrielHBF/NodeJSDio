@@ -12,14 +12,22 @@ async function addToCart(userCart, productId) {
 };
 
 async function removeFromCart(userCart, productId) {
-    //se o produto existir no carrinho, remova-o
-    //se não, não faça nada
-    //retorne o carrinho atualizado
-    const index = userCart.indexOf(productId);
-    if (index > -1) {
-        userCart.splice(index, 1);
+   //remover um produto do carrinho pelo id
+   const index = userCart.findIndex(item => item.id === productId.id);  
+    if(index == -1) {
+        console.log('Produto não encontrado no carrinho');
+        return userCart;
+    };
+
+    if(userCart[index].quantidade > 1) {
+        userCart[index].quantidade -= 1;
+        return userCart;
+    };
+    
+    if(userCart[index].quantidade === 1) {
+        usercart[index].quantidade -= 1;
+        return userCart;
     }
-    return userCart;
 };
 
 async function clearCart(userCart) {

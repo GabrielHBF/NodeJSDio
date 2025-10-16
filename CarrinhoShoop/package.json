@@ -1,5 +1,5 @@
 {
-  "name": "CartShoop",
+  "name": "carrinho-shoop",
   "version": "1.0.0",
   "description": "Implementação de um carrinho de compras simples",
   "main": "index.js",
