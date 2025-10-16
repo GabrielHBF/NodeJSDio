@@ -1,0 +1,12 @@
+{
+  "name": "CartShoop",
+  "version": "1.0.0",
+  "description": "Implementação de um carrinho de compras simples",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GabrielHBF",
+  "license": "ISC"
+}
