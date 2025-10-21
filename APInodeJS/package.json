@@ -1,0 +1,23 @@
+{
+  "name": "apinodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start:dev": "tsx --env-file=.env src/index.ts",
+    "start:watch": "tsx watch src/index.ts",
+    "dist": "tsup src",
+    "start:dist": "npm run dist && node/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

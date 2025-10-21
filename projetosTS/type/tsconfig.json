@@ -1,0 +1,14 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+   "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "Dist"
+
+  }
+}
+//comando para rodas type script: intalar dependencias "npm install -g typescript"
+//npm i typescript tsc tsup
+//para criar arquivo de configuração: npx tsc --init
