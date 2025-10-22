@@ -1,0 +1,25 @@
+{
+  "name": "apiminimaf1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsup src",
+    "start:dev": "node --env-file=.env src/server.ts",
+    "start:watch": "node --env-file=.env --watch src/server.ts",
+    "start:dist": "npm run dist && node  dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6",
+    "fastify": "^5.6.1",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
