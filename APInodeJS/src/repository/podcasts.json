@@ -2,16 +2,16 @@
 [
     { 
         "id": "1",
-     "title": "Episódio 1",
+     "title": "Episodio1",
       "description": "Descrição do episódio 1"
      },
     { 
         "id": 2,
-     "title": "Episódio 2",
+     "title": "Episodio2",
       "description": "Descrição do episódio 2" },
     {
         "id": 3,
-     "title": "Episódio 3",
+     "title": "Episodio3",
       "description": "Descrição do episódio 3" }
 ]
  
